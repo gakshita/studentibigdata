@@ -1,0 +1,149 @@
+{
+  "names": [
+    {
+      "name": "Campaign",
+      "count": "odd",
+      "icon": "group",
+      "color": "#f06987",
+      "bg": "#fce5ea",
+      "navigate": "Campaign"
+    },
+    {
+      "name": "Follow Up",
+      "count": "even",
+      "icon": "envelope",
+      "color": "#9380ff",
+      "bg": "#e5eafe",
+      "navigate": "Follow Up"
+    },
+    {
+      "name": "Report",
+      "count": "odd",
+      "icon": "pie-chart",
+      "color": "#2a9d8e",
+      "bg": "#d6eef2",
+      "navigate": "Report"
+    },
+    {
+      "name": "Task",
+      "count": "even",
+      "icon": "list-alt",
+      "color": "#e86f52",
+      "bg": "#fce6e1",
+      "navigate": "Tasks"
+    }
+  ],
+
+  "report": [
+    {
+      "id": 1,
+      "name": "Akshita",
+      "educationn": "XYZ",
+      "college": "XYZ",
+      "contact": "123456"
+    },
+    {
+      "id": 2,
+      "name": "Akshita",
+      "educationn": "XYZ",
+      "college": "XYZ",
+      "contact": "123456"
+    },
+    {
+      "id": 3,
+      "name": "Akshita",
+      "educationn": "XYZ",
+      "college": "XYZ",
+      "contact": "123456"
+    },
+    {
+      "id": 4,
+      "name": "Akshita",
+      "educationn": "XYZ",
+      "college": "XYZ",
+      "contact": "123456"
+    },
+    {
+      "id": 5,
+      "name": "Akshita",
+      "educationn": "XYZ",
+      "college": "XYZ",
+      "contact": "123456"
+    },
+    {
+      "id": 6,
+      "name": "Akshita",
+      "educationn": "XYZ",
+      "college": "XYZ",
+      "contact": "123456"
+    }
+  ],
+
+  "category": [
+    {
+      "name": "Post Graduate",
+      "color": "#f5dfb2",
+      "bg": "#eaab5c",
+      "id": 1
+    },
+    {
+      "name": "BTech",
+      "color": "#9ee6f7",
+      "bg": "#7aaae9",
+      "id": 2
+    },
+    {
+      "name": "IT",
+      "color": "#f5afab",
+      "bg": "#e65a7d",
+
+      "id": 3
+    },
+    {
+      "name": "BCA",
+      "color": "#e1aae8",
+      "bg": "#a075ea",
+      "id": 4
+    },
+    {
+      "name": "Post Graduate",
+      "color": "#aae7df",
+      "bg": "#65ddbc",
+      "id": 5
+    }
+  ],
+
+  "tasks": [
+    {
+      "name": "Meeting",
+      "color": "#f5dfb2",
+      "bg": "#eaab5c",
+      "id": 1
+    },
+    {
+      "name": "Metting",
+      "color": "#9ee6f7",
+      "bg": "#7aaae9",
+      "id": 2
+    },
+    {
+      "name": "Metting",
+      "color": "#f5afab",
+      "bg": "#e65a7d",
+
+      "id": 3
+    },
+    {
+      "name": "Metting",
+      "color": "#e1aae8",
+      "bg": "#a075ea",
+      "id": 4
+    },
+    {
+      "name": "Metting",
+      "color": "#aae7df",
+      "bg": "#65ddbc",
+      "id": 5
+    }
+  ]
+}

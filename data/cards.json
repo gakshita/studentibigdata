@@ -1,0 +1,6 @@
+{  "cards":[{ "id": 1, "img": "require('./../images/images1.jpg')" },
+    { "id": 2, "img": "require('./../images/images2.jpg')" },
+    { "id": 3, "img": "require('./../images/images3.jpg')" },
+    { "id": 4, "img": "require('./../images/images4.jpg')" }
+  ]
+}
