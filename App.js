@@ -1,28 +1,34 @@
 // import { enableScreens } from "react-native-screens";
 // enableScreens();
 import React from "react";
-import { StyleSheet, ScrollView, Text, View } from "react-native";
-import Home_layout from "./HOME/home_layout";
-import Form_layout from "./FORM/form_layout";
-import Login from "./LOGIN/login_page";
+import { StyleSheet } from "react-native";
 import { Provider } from "react-redux";
-import store from "./STORE/store";
-import { NavigationContainer, TabActions } from "@react-navigation/native";
+import store from "./src/store/store";
 import { createStackNavigator } from "@react-navigation/stack";
-import AuthLoadingScreen from "./MAIN/main";
-import Campaign_categories from "./components/CAMPAIGN/campaign_layout";
-import Task_layout from "./components/TASKS/task_layout";
-import My_drawer from "./components/drawer";
+import Authenticate from "./src/components/Login/authenticate.js";
+import { AppLoading } from "expo";
 
-export default function App() {
-  const Stack = createStackNavigator();
-  return (
-    <Provider store={store}>
-      <NavigationContainer>
-        <My_drawer />
-      </NavigationContainer>
-    </Provider>
-  );
+import * as Font from "expo-font";
+import { Root } from "native-base";
+
+export default class App extends React.Component {
+  state = { loading: true };
+
+  async componentDidMount() {
+    await Font.loadAsync({
+      Roboto: require("native-base/Fonts/Roboto.ttf"),
+      Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf"),
+    });
+    this.setState({ loading: false });
+  }
+  render() {
+    const Stack = createStackNavigator();
+    return (
+      <Provider store={store}>
+        <Root>{this.state.loading ? <AppLoading /> : <Authenticate />}</Root>
+      </Provider>
+    );
+  }
 }
 
 const styles = StyleSheet.create({

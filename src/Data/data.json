@@ -1,0 +1,137 @@
+{
+  "masters": [
+    {
+      "master": "Campaigns",
+      "label": "Campaign",
+      "icon": "view-dashboard",
+      "color": "#696ffc",
+      "bg": "#e1e2fe"
+    },
+    {
+      "master": "Customer_types",
+      "label": "Customer Types",
+      "icon": "user",
+      "color": "#ff971f",
+      "bg": "#ffe9cf"
+    },
+    {
+      "master": "Cities",
+      "label": "City",
+      "icon": "home-city",
+      "color": "#e298da",
+      "bg": "#f4daf1"
+    },
+    {
+      "master": "Locations",
+      "label": "Location",
+      "icon": "playlist-check",
+      "color": "#83bc7d",
+      "bg": "#e4f0e3"
+    },
+    {
+      "master": "Facilities",
+      "label": "Facilities",
+      "icon": "chart-bar",
+      "color": "#f32a46",
+      "bg": "#f32a4638"
+    },
+    {
+      "master": "Functional_areas",
+      "label": "Functional Areas",
+      "icon": "view-dashboard",
+      "color": "#696ffc",
+      "bg": "#e1e2fe"
+    },
+    {
+      "master": "Industries",
+      "label": "Industries",
+      "icon": "office-building",
+      "color": "#ff971f",
+      "bg": "#ffe9cf"
+    },
+    {
+      "master": "Roles",
+      "label": "Roles",
+      "icon": "user",
+      "color": "#e298da",
+      "bg": "#f4daf1"
+    },
+    {
+      "master": "Student_categories",
+      "label": "Student Category",
+      "icon": "playlist-check",
+      "color": "#83bc7d",
+      "bg": "#e4f0e3"
+    },
+    {
+      "master": "Salaries",
+      "label": "Salaries",
+      "icon": "view-dashboard",
+      "color": "#696ffc",
+      "bg": "#e1e2fe"
+    },
+    {
+      "master": "Experiences",
+      "label": "Experiences",
+      "icon": "user",
+      "color": "#ff971f",
+      "bg": "#ffe9cf"
+    },
+    {
+      "master": "Student_types",
+      "label": "Student Type",
+      "icon": "user",
+      "color": "#e298da",
+      "bg": "#f4daf1"
+    },
+    {
+      "master": "References",
+      "label": "References",
+      "icon": "playlist-check",
+      "color": "#83bc7d",
+      "bg": "#e4f0e3"
+    },
+    {
+      "master": "Expenses",
+      "label": "Expenses",
+      "icon": "chart-bar",
+      "color": "#f32a46",
+      "bg": "#f32a4638"
+    },
+    {
+      "master": "Incomes",
+      "label": "Incomes",
+      "icon": "view-dashboard",
+      "color": "#696ffc",
+      "bg": "#e1e2fe"
+    },
+    {
+      "master": "Status_types",
+      "label": "Status Types",
+      "icon": "user",
+      "color": "#ff971f",
+      "bg": "#ffe9cf"
+    },
+    {
+      "master": "Payment_methods",
+      "label": "Payment Method",
+      "icon": "user",
+      "color": "#e298da",
+      "bg": "#f4daf1"
+    },
+    {
+      "master": "Sms_templates",
+      "label": "Sms Templates",
+      "icon": "playlist-check",
+      "color": "#83bc7d",
+      "bg": "#e4f0e3"
+    },
+    {
+      "master": "Mail_templates",
+      "label": "Mail Templates",
+      "icon": "chart-bar",
+      "color": "#f32a46",
+      "bg": "#f32a4638"
+    }
+  ]
+}
